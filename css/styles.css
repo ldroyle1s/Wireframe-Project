@@ -1,46 +1,120 @@
+@import url('https://fonts.cdnfonts.com/css/monofonto');
+
+
+
 /* html */
 html{
     background-color: rgb(0, 53, 1) ;
     color: rgb(18, 255, 21);
+    font-family: 'Monofonto', sans-serif;;
+    letter-spacing: 1px;
+}
+html, body {
+    overflow: auto;
 }
 
 /* body */
 body{
-    /* find the image for the background */
-    background: url();
+    
+    border: 1px solid rgb(18, 255, 21);
     margin-left: auto;
     margin-right: auto;
-    max-width: 960px;
-    min-width: 640px;
+    max-width: 1060px;
+    min-width: 740px;
     width: 40%;
+    
 }
-  
 /* header */
 header{
     margin: auto;
+    
 }
+header img {
+   width: 50% ;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+
+}
+
 
 
 /* Horizontal Navigation Styles */
+.horinav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.horinav a{
+    color:rgb(18, 255, 21);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border: 1px solid rgb(18, 255, 21);
+    
+}
+.horinav li{
+    float: left;
+    width: 50%;
+}
 
-
-/* article */
-
+/* main */
+main{
+    padding: 15px;
+}
 
 /* aside */
-aside{
- width: 30%;
+#ontheside{
+ width: 40%;
   padding: 15px;
   margin: 15px;
   float: left;
-  border: 2px solid rgb(18, 255, 21);
+  border: 1px solid rgb(18, 255, 21);
 }
 
 /* footer */
-
+footer{
+    text-align: center;
+    clear: both;
+    border: 1px solid ;
+}
 
 /* link */
 a{
     color: rgb(18, 255, 21);
 }
 
+/* second page specific */
+
+.imgleft{
+float: left;
+clear: both;
+border: 1px solid rgb(18, 255, 21);
+}
+
+.imgright{
+float: right;
+clear: both;
+border: 1px solid rgb(18, 255, 21);
+}
+
+.imgleft p{
+max-width: 300px;
+text-align: center;
+}
+
+.imgright p{
+max-width: 300px;
+text-align: center;
+}
+
+.imgleft img {
+width: 300px;
+}
+
+.imgright img {
+width: 300px;
+}
