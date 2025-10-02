@@ -8,6 +8,7 @@ html{
     color: rgb(18, 255, 21);
     font-family: 'Monofonto', sans-serif;;
     letter-spacing: 1px;
+    font-size: 95%;
 }
 html, body {
     overflow: auto;
